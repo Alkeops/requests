@@ -1,0 +1,33 @@
+.modal {
+    border: 3px solid #fff;
+    width: 95%;
+    height: 0;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    animation: grow .5s ease-in-out forwards;
+    &__close{
+        position: absolute;
+        color: #fff;
+        right: 20px;
+        top: 15px;
+        font-size: 26px;
+    }
+    &__content{
+        padding: 50px 20px;
+        font-size: 20px;
+        overflow: scroll;
+        height: calc(100% - 100px);
+    }
+}
+
+@keyframes grow {
+    0% {
+        height: 0;
+        opacity: 0;
+    }
+    100% {
+        height: 95%;
+        opacity: 1;
+    }
+}
