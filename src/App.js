@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Modal } from 'components';
+import { Modal} from 'components';
 
 import './App.css';
 
