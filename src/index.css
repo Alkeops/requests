@@ -19,6 +19,15 @@ button{
   border: none;
   cursor: pointer;
 }
-*{
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
   color: #fff;
+
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
