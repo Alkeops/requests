@@ -20,6 +20,7 @@
         font-size: 20px;
         overflow: scroll;
         height: calc(100% - 100px);
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(250px, 400px));
         grid-auto-rows: 300px;
